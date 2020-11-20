@@ -1,23 +1,18 @@
-# routify-starter
+# svelte theme-windmill with routify
 
-Starter template for [Routify](https://github.com/sveltech/routify)
+Theme for svelte (https://github.com/sveltegaruda/theme-windmill)
 
 ### Get started
 
-#### Starter templates
-| Template                                  | Description                                                 |
-|-------------------------------------------|-------------------------------------------------------------|
-| [master](https://example.routify.dev/)    | Default template, includes examples folder                  |
-| [blog](https://blog-example.routify.dev/) | Generates a blog from local markdown posts. Includes mdsvex |
-| [auth](https://auth-example.routify.dev/) | Embedded login on protected pages. Includes Auth0           |
-
 To use a template, run
 
-`npx @sveltech/routify init`
+`npx degit sveltegaruda/theme-windmill my-project-name`
 
-or
+cd to my-project-name and then run
 
-`npx @sveltech/routify init --branch <branch-name>`.
+`pnpm i`
+`npm run dev:nollup` or
+`./x.cmd`
 
 ### npm scripts
 
@@ -53,5 +48,4 @@ See [src/pages/example/api/[showId].svelte](https://github.com/sveltech/routify-
 
 ### Issues?
 
-File on Github! See https://github.com/sveltech/routify/issues .
-# theme-windmill
+File on Github! See https://github.com/sveltegaruda/theme-windmill/issues .
